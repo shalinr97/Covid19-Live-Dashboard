@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/maharsh/IdeaProjects/covid19-dash-api/src</OriginalElement>
+  <nodes>
+    <node x="1580.2824074074078" y="453.0">com.example.covid19dashapi.service.AlertService</node>
+    <node x="127.88669590643394" y="328.0">com.example.covid19dashapi.MockData.CovidApiMockData</node>
+    <node x="390.0" y="652.0">com.example.covid19dashapi.Covid19DashApiApplication</node>
+    <node x="195.13669590643394" y="576.0">com.example.covid19dashapi.controller.Covid19DataControllerTest</node>
+    <node x="1472.1181773879152" y="123.0">com.example.covid19dashapi.helper.DashApiConstants</node>
+    <node x="0.0" y="652.0">com.example.covid19dashapi.Covid19DashApiApplicationTests</node>
+    <node x="251.38669590643394" y="453.0">com.example.covid19dashapi.controller.Covid19DataController</node>
+    <node x="632.6366959064339" y="0.0">com.example.covid19dashapi.model.LocationInfo</node>
+    <node x="270.65740740740785" y="123.0">com.example.covid19dashapi.model.ContinentData</node>
+    <node x="1094.5" y="576.0">com.example.covid19dashapi.service.AlertServiceTest</node>
+    <node x="1574.7824074074078" y="576.0">com.example.covid19dashapi.controller.AlertController</node>
+    <node x="947.2685185185189" y="123.0">com.example.covid19dashapi.model.CountryData</node>
+    <node x="101.65740740740785" y="123.0">com.example.covid19dashapi.model.StateData</node>
+    <node x="166.76169590643394" y="0.0">com.example.covid19dashapi.model.CovidApiData</node>
+    <node x="1050.7824074074078" y="328.0">com.example.covid19dashapi.service.Covid19DataProviderService</node>
+    <node x="1784.7824074074078" y="576.0">com.example.covid19dashapi.controller.AlertControllerTest</node>
+    <node x="685.0" y="453.0">com.example.covid19dashapi.service.Covid19DataProviderServiceTest</node>
+    <node x="1392.0" y="328.0">com.example.covid19dashapi.model.AlertStatus</node>
+    <node x="675.2685185185189" y="123.0">com.example.covid19dashapi.model.VaccineCoverageData</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.model.ContinentData" relationship="DEPENDENCY">
+      <point x="-15.0" y="-15.5" />
+      <point x="842.0" y="341.0" />
+      <point x="376.5" y="341.0" />
+      <point x="12.342592592592155" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="DEPENDENCY">
+      <point x="14.99959259259208" y="15.5" />
+      <point x="1679.282" y="507.0" />
+      <point x="1233.782" y="507.0" />
+      <point x="29.99959259259208" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertController" target="com.example.covid19dashapi.service.AlertService" relationship="DEPENDENCY">
+      <point x="-95.00040740740792" y="0.0" />
+      <point x="1427.0" y="591.5" />
+      <point x="1427.0" y="630.0" />
+      <point x="1491.5" y="630.0" />
+      <point x="1491.5" y="659.5" />
+      <point x="2044.282" y="659.5" />
+      <point x="2044.282" y="468.5" />
+      <point x="83.99959259259208" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.MockData.CovidApiMockData" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="CREATE">
+      <point x="-14.999695906433942" y="-15.5" />
+      <point x="225.887" y="265.0" />
+      <point x="714.0" y="265.0" />
+      <point x="-87.26851851851893" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.model.CountryData" relationship="CREATE">
+      <point x="0.0" y="15.5" />
+      <point x="1197.5" y="700.5" />
+      <point x="2029.282" y="700.5" />
+      <point x="2029.282" y="263.0" />
+      <point x="1472.0" y="263.0" />
+      <point x="1472.0" y="194.0" />
+      <point x="1018.269" y="194.0" />
+      <point x="-14.999518518518926" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertControllerTest" target="com.example.covid19dashapi.service.AlertService" relationship="DEPENDENCY">
+      <point x="14.99959259259208" y="15.5" />
+      <point x="1913.282" y="659.5" />
+      <point x="2044.282" y="659.5" />
+      <point x="2044.282" y="468.5" />
+      <point x="83.99959259259208" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.model.CovidApiData" relationship="DEPENDENCY">
+      <point x="-4.0740740791989083E-4" y="15.5" />
+      <point x="1203.782" y="530.0" />
+      <point x="615.137" y="530.0" />
+      <point x="615.137" y="15.5" />
+      <point x="90.00030409356606" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.model.AlertStatus" relationship="DEPENDENCY">
+      <point x="15.0" y="15.5" />
+      <point x="1212.5" y="624.5" />
+      <point x="1395.0" y="624.5" />
+      <point x="-77.0" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="TO_ONE">
+      <point x="-29.999695906433942" y="15.5" />
+      <point x="349.387" y="553.0" />
+      <point x="1765.782" y="553.0" />
+      <point x="1765.782" y="310.5" />
+      <point x="1203.782" y="310.5" />
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.AlertStatus" target="com.example.covid19dashapi.model.CountryData" relationship="TO_ONE">
+      <point x="-17.38182261208476" y="-15.5" />
+      <point x="1454.6181773879152" y="138.5" />
+      <point x="86.0" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.helper.DashApiConstants" relationship="DEPENDENCY">
+      <point x="29.99959259259208" y="-15.5" />
+      <point x="1694.282" y="383.0" />
+      <point x="1582.618" y="383.0" />
+      <point x="-1.773879153006419E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="DEPENDENCY">
+      <point x="14.99959259259208" y="15.5" />
+      <point x="1218.782" y="406.0" />
+      <point x="646.0" y="406.0" />
+      <point x="646.0" y="138.5" />
+      <point x="-125.99951851851893" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="DEPENDENCY">
+      <point x="-15.0" y="-15.5" />
+      <point x="1182.5" y="507.0" />
+      <point x="1233.782" y="507.0" />
+      <point x="29.99959259259208" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.model.AlertStatus" relationship="CREATE">
+      <point x="44.99959259259208" y="15.5" />
+      <point x="1709.282" y="530.0" />
+      <point x="1913.282" y="530.0" />
+      <point x="1913.282" y="343.5" />
+      <point x="80.0" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="DEPENDENCY">
+      <point x="-15.0" y="15.5" />
+      <point x="842.0" y="507.0" />
+      <point x="1233.782" y="507.0" />
+      <point x="29.99959259259208" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.model.CountryData" relationship="DEPENDENCY">
+      <point x="-14.999695906433942" y="-15.5" />
+      <point x="364.387" y="430.0" />
+      <point x="349.387" y="430.0" />
+      <point x="349.387" y="383.0" />
+      <point x="1033.269" y="383.0" />
+      <point x="4.8148148107429733E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.MockData.CovidApiMockData" target="com.example.covid19dashapi.model.ContinentData" relationship="CREATE">
+      <point x="-29.999695906433942" y="-15.5" />
+      <point x="210.887" y="171.5" />
+      <point x="346.38669590643394" y="171.5" />
+      <point x="-17.770711500973903" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.model.CountryData" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="857.0" y="430.0" />
+      <point x="349.387" y="430.0" />
+      <point x="349.387" y="383.0" />
+      <point x="1033.269" y="383.0" />
+      <point x="4.8148148107429733E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.CountryData" target="com.example.covid19dashapi.model.LocationInfo" relationship="TO_ONE">
+      <point x="15.000481481481074" y="-15.5" />
+      <point x="1048.269" y="54.0" />
+      <point x="695.0" y="54.0" />
+      <point x="-22.636695906433943" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="DEPENDENCY">
+      <point x="3.040935660578725E-4" y="-15.5" />
+      <point x="379.387" y="406.0" />
+      <point x="646.0" y="406.0" />
+      <point x="646.0" y="138.5" />
+      <point x="-125.99951851851893" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.ContinentData" target="com.example.covid19dashapi.model.LocationInfo" relationship="CREATE">
+      <point x="14.999592592592137" y="-15.5" />
+      <point x="379.157" y="100.0" />
+      <point x="717.637" y="100.0" />
+      <point x="3.040935660010291E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataControllerTest" target="com.example.covid19dashapi.MockData.CovidApiMockData" relationship="DEPENDENCY">
+      <point x="147.00030409356606" y="0.0" />
+      <point x="600.137" y="591.5" />
+      <point x="600.137" y="362.0" />
+      <point x="450.157" y="362.0" />
+      <point x="450.157" y="295.5" />
+      <point x="258.157" y="295.5" />
+      <point x="17.27030409356604" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="CREATE">
+      <point x="-15.0" y="15.5" />
+      <point x="1182.5" y="715.5" />
+      <point x="2059.282" y="715.5" />
+      <point x="2059.282" y="-17.5" />
+      <point x="1233.782" y="-17.5" />
+      <point x="1233.782" y="265.0" />
+      <point x="714.0" y="265.0" />
+      <point x="-87.26851851851893" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.StateData" target="com.example.covid19dashapi.model.CovidApiData" relationship="GENERALIZATION">
+      <point x="-4.074074078346257E-4" y="-15.5" />
+      <point x="176.157" y="77.0" />
+      <point x="256.762" y="77.0" />
+      <point x="3.040935660578725E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertControllerTest" target="com.example.covid19dashapi.model.AlertStatus" relationship="CREATE">
+      <point x="-37.282407407407845" y="-15.5" />
+      <point x="1861.0" y="530.0" />
+      <point x="1913.282" y="530.0" />
+      <point x="1913.282" y="343.5" />
+      <point x="80.0" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.model.ContinentData" relationship="DEPENDENCY">
+      <point x="-15.00040740740792" y="-15.5" />
+      <point x="1188.782" y="295.5" />
+      <point x="744.0" y="295.5" />
+      <point x="744.0" y="341.0" />
+      <point x="376.5" y="341.0" />
+      <point x="12.342592592592155" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.CountryData" target="com.example.covid19dashapi.model.CovidApiData" relationship="GENERALIZATION">
+      <point x="4.8148148107429733E-4" y="-15.5" />
+      <point x="1033.269" y="77.0" />
+      <point x="256.762" y="77.0" />
+      <point x="3.040935660578725E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.service.AlertService" relationship="TO_ONE">
+      <point x="-30.0" y="-15.5" />
+      <point x="1167.5" y="469.0" />
+      <point x="-84.00040740740792" y="0.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.model.StateData" relationship="DEPENDENCY">
+      <point x="-127.99969590643394" y="0.0" />
+      <point x="110.387" y="468.5" />
+      <point x="110.387" y="233.0" />
+      <point x="176.157" y="233.0" />
+      <point x="-4.074074078346257E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.MockData.CovidApiMockData" target="com.example.covid19dashapi.model.StateData" relationship="CREATE">
+      <point x="-49.72969590643393" y="-15.5" />
+      <point x="14.999592592592165" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.ContinentData" target="com.example.covid19dashapi.model.LocationInfo" relationship="TO_ONE">
+      <point x="-15.000407407407863" y="-15.5" />
+      <point x="349.157" y="54.0" />
+      <point x="695.0" y="54.0" />
+      <point x="-22.636695906433943" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.helper.DashApiConstants" relationship="DEPENDENCY">
+      <point x="44.99959259259208" y="15.5" />
+      <point x="1248.782" y="383.0" />
+      <point x="1582.618" y="383.0" />
+      <point x="-1.773879153006419E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.model.CountryData" relationship="DEPENDENCY">
+      <point x="-15.00040740740792" y="15.5" />
+      <point x="1188.782" y="383.0" />
+      <point x="1033.269" y="383.0" />
+      <point x="4.8148148107429733E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.CountryData" target="com.example.covid19dashapi.model.LocationInfo" relationship="CREATE">
+      <point x="-14.999518518518926" y="-15.5" />
+      <point x="1018.269" y="100.0" />
+      <point x="717.637" y="100.0" />
+      <point x="3.040935660010291E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.model.ContinentData" relationship="DEPENDENCY">
+      <point x="15.000304093566058" y="-15.5" />
+      <point x="394.387" y="341.0" />
+      <point x="376.5" y="341.0" />
+      <point x="12.342592592592155" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertControllerTest" target="com.example.covid19dashapi.service.AlertService" relationship="TO_ONE">
+      <point x="-4.0740740791989083E-4" y="15.5" />
+      <point x="1898.282" y="630.0" />
+      <point x="1553.0" y="630.0" />
+      <point x="1553.0" y="469.0" />
+      <point x="-84.00040740740792" y="0.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataControllerTest" target="com.example.covid19dashapi.controller.Covid19DataController" relationship="TO_ONE">
+      <point x="-7.749695906433942" y="-15.5" />
+      <point x="-44.99969590643394" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.model.CovidApiData" relationship="DEPENDENCY">
+      <point x="-4.0740740791989083E-4" y="15.5" />
+      <point x="1664.282" y="530.0" />
+      <point x="615.137" y="530.0" />
+      <point x="615.137" y="15.5" />
+      <point x="90.00030409356606" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="DEPENDENCY">
+      <point x="-14.999695906433942" y="15.5" />
+      <point x="364.387" y="507.0" />
+      <point x="1233.782" y="507.0" />
+      <point x="29.99959259259208" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertControllerTest" target="com.example.covid19dashapi.helper.DashApiConstants" relationship="DEPENDENCY">
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+      <point x="1898.282" y="383.0" />
+      <point x="1582.618" y="383.0" />
+      <point x="-1.773879153006419E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.service.AlertService" relationship="DEPENDENCY">
+      <point x="103.0" y="0.0" />
+      <point x="1427.0" y="591.5" />
+      <point x="1427.0" y="630.0" />
+      <point x="1491.5" y="630.0" />
+      <point x="1491.5" y="659.5" />
+      <point x="2044.282" y="659.5" />
+      <point x="2044.282" y="468.5" />
+      <point x="83.99959259259208" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.MockData.CovidApiMockData" target="com.example.covid19dashapi.model.CountryData" relationship="CREATE">
+      <point x="3.040935660578725E-4" y="-15.5" />
+      <point x="240.887" y="194.0" />
+      <point x="1018.269" y="194.0" />
+      <point x="-14.999518518518926" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.AlertStatus" target="com.example.covid19dashapi.model.CountryData" relationship="CREATE">
+      <point x="0.0" y="-15.5" />
+      <point x="1472.0" y="194.0" />
+      <point x="1018.269" y="194.0" />
+      <point x="-14.999518518518926" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.model.CovidApiData" relationship="DEPENDENCY">
+      <point x="0.0" y="15.5" />
+      <point x="857.0" y="530.0" />
+      <point x="615.137" y="530.0" />
+      <point x="615.137" y="15.5" />
+      <point x="90.00030409356606" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="TO_ONE">
+      <point x="143.0" y="15.5" />
+      <point x="1000.0" y="553.0" />
+      <point x="1765.782" y="553.0" />
+      <point x="1765.782" y="310.5" />
+      <point x="1203.782" y="310.5" />
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.model.StateData" relationship="DEPENDENCY">
+      <point x="-128.0" y="-15.5" />
+      <point x="729.0" y="233.0" />
+      <point x="176.157" y="233.0" />
+      <point x="-4.074074078346257E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="TO_ONE">
+      <point x="15.0" y="-15.5" />
+      <point x="1212.5" y="553.0" />
+      <point x="1765.782" y="553.0" />
+      <point x="1765.782" y="310.5" />
+      <point x="1203.782" y="310.5" />
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertController" target="com.example.covid19dashapi.model.AlertStatus" relationship="DEPENDENCY">
+      <point x="-95.00040740740792" y="-10.5" />
+      <point x="1395.0" y="581.0" />
+      <point x="-77.0" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="DEPENDENCY">
+      <point x="-172.0" y="0.0" />
+      <point x="646.0" y="468.5" />
+      <point x="646.0" y="138.5" />
+      <point x="-125.99951851851893" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertServiceTest" target="com.example.covid19dashapi.model.CovidApiData" relationship="DEPENDENCY">
+      <point x="0.0" y="-15.5" />
+      <point x="1197.5" y="530.0" />
+      <point x="615.137" y="530.0" />
+      <point x="615.137" y="15.5" />
+      <point x="90.00030409356606" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.model.ContinentData" target="com.example.covid19dashapi.model.CovidApiData" relationship="GENERALIZATION">
+      <point x="-4.074074078630474E-4" y="-15.5" />
+      <point x="364.157" y="77.0" />
+      <point x="256.762" y="77.0" />
+      <point x="3.040935660578725E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderService" target="com.example.covid19dashapi.model.StateData" relationship="DEPENDENCY">
+      <point x="14.99959259259208" y="-15.5" />
+      <point x="1218.782" y="233.0" />
+      <point x="176.157" y="233.0" />
+      <point x="-4.074074078346257E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.Covid19DataProviderServiceTest" target="com.example.covid19dashapi.MockData.CovidApiMockData" relationship="DEPENDENCY">
+      <point x="15.0" y="-15.5" />
+      <point x="872.0" y="362.0" />
+      <point x="450.157" y="362.0" />
+      <point x="450.157" y="295.5" />
+      <point x="258.157" y="295.5" />
+      <point x="17.27030409356604" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.model.CountryData" relationship="DEPENDENCY">
+      <point x="14.99959259259208" y="-15.5" />
+      <point x="1679.282" y="430.0" />
+      <point x="349.387" y="430.0" />
+      <point x="349.387" y="383.0" />
+      <point x="1033.269" y="383.0" />
+      <point x="4.8148148107429733E-4" y="15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.model.VaccineCoverageData" relationship="DEPENDENCY">
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+      <point x="1664.282" y="406.0" />
+      <point x="646.0" y="406.0" />
+      <point x="646.0" y="138.5" />
+      <point x="-125.99951851851893" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.MockData.CovidApiMockData" target="com.example.covid19dashapi.model.CovidApiData" relationship="CREATE">
+      <point x="-113.0" y="0.0" />
+      <point x="84.15740740740785" y="343.5" />
+      <point x="84.15740740740785" y="15.5" />
+      <point x="-90.0" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataController" target="com.example.covid19dashapi.model.CovidApiData" relationship="DEPENDENCY">
+      <point x="3.040935660578725E-4" y="15.5" />
+      <point x="379.387" y="530.0" />
+      <point x="615.137" y="530.0" />
+      <point x="615.137" y="15.5" />
+      <point x="90.00030409356606" y="0.0" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.AlertController" target="com.example.covid19dashapi.service.AlertService" relationship="TO_ONE">
+      <point x="-4.0740740791989083E-4" y="15.5" />
+      <point x="1669.782" y="630.0" />
+      <point x="1553.0" y="630.0" />
+      <point x="1553.0" y="469.0" />
+      <point x="-84.00040740740792" y="0.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.service.AlertService" target="com.example.covid19dashapi.service.Covid19DataProviderService" relationship="TO_ONE">
+      <point x="29.99959259259208" y="15.5" />
+      <point x="1694.282" y="553.0" />
+      <point x="1765.782" y="553.0" />
+      <point x="1765.782" y="310.5" />
+      <point x="1203.782" y="310.5" />
+      <point x="-4.0740740791989083E-4" y="-15.5" />
+    </edge>
+    <edge source="com.example.covid19dashapi.controller.Covid19DataControllerTest" target="com.example.covid19dashapi.controller.Covid19DataController" relationship="DEPENDENCY">
+      <point x="-22.749695906433942" y="-15.5" />
+      <point x="-59.99969590643394" y="15.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="0.8365384615384616" showDependencies="true" x="1030.0" y="349.0000000000001" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
